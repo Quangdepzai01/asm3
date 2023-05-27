@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+}
+.container{
+    margin-top: 50px;
+}
+body{
+    margin: 10px;
+    box-sizing: border-box;
+}
+.bg-grey {
+    background: #f7f7f7;
+}
+
+section > .container{
+    width: 1170px;
+    margin: auto;
+    display: block;
+
+    padding: 30px 50px;
+}
+ul{
+    list-style: none;
+}
+/* banner */
+/* #banner{
+    text-align: center;
+} */
+#banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+#info1 h1{
+    line-height: 2px;
+    margin-bottom: 20px;
+}
+#info1 span{
+    line-height: 0.3px;
+}
+#info1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: white;
+}
+/* banner */
+
+/* nav-bar */
+.nav{
+   justify-content: center;
+}
+/* nav-bar */
+
+/* about */
+.about i{
+    float: left;
+    color: blue;
+}
+.about{
+background-color: #bbb;
+}
+.about .row>div{
+    padding: 0 50px ;
+}
+/* about */
+
+/* start job-info */
+.col-job{
+    border: 1px solid bisque;
+    height: 700px;
+}
+.tieu-de i{
+    font-size: 50px;
+}
+.tieu-de{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: 100px;
+}
+.d{ 
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    margin:10px 3px;
+    color:blue;
+}
+.grid-4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:2px;
+}
+.thong-tin .grid-3 .xanh{
+    background-color: blue;
+    padding: 2px;
+    margin: 5px;
+}
+.thong-tin .grid-3 .trang{
+    background-color:ghostwhite;
+    padding: 2px;
+    margin: 5px;
+}
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2px;
+}
+/* certificate */
+.col-6{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+#certificate img{
+    width: 45%;
+    float:left;
+    margin: 0 20px 50px 0;
+}
+/* start project */
+#project h2,#project .m{
+    border: 1px solid #bbb;
+}
+#project h2{
+    height: 80px;
+}
+.hien-tai{
+    border-radius: 20%;
+    background-color: blue;
+    }
+    table{
+        width: 100%;
+        border: 1px solid #bbb;
+    }
+    
+    td{
+        border-bottom: 1px solid #bbb;
+    }
+    #project img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+/* footer */
+#footer{
+    text-align: center;
+    height: 100px;
+}
+#footer li{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+#footer i{
+    font-size: 100%;
+    color: blue;
+    border-radius: 50%;
+}
+
+
+
+
+

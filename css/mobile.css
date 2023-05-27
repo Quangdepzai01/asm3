@@ -1,0 +1,20 @@
+@media screen and (max-width: 767px) {
+  .nav {
+    display: block;
+  }
+  #certificate img {
+    width: 100%;
+    float: left;
+  }
+  #certificate .row > div {
+    margin-bottom: 10px;
+    border-bottom: 1px solid red;
+  }
+  #project .m {
+    display: block;
+  }
+  #info2{
+    display: none;
+}
+}
+
